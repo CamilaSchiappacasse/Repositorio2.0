@@ -41,6 +41,7 @@ body {
     /*max-width: 1080px;*/
     text-align: center;
     overflow: auto;
+    background-image: radial-gradient(#e10e81,#021033);
 }
 
 .titulo {
@@ -91,16 +92,16 @@ body {
     font-size: 12px;
 }
 
-
 /*GRIDS*/
 .gridContainerIndex{
     display: grid;
     grid-template-areas:
-    "titulo titulo titulo"
-    "img1 img3 img2"
-    "subtitulo subtitulo subtitulo";
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 100px 300px 100px;
+    "barraNav barraNav barraNav barraNav"
+    "main main main main"    
+    "subtitulo subtitulo subtitulo subtitulo"
+    "footer footer footer footer" ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:  100px 80px 410px 110px;
 }
 .img1 {
     grid-area: img1;
@@ -122,4 +123,32 @@ body {
 .img3 {
     grid-area: img3;
     width: 200px;
+}
+.logo {
+    grid-area: logo;
+    width: 100px;
+}
+header {
+    grid-area: barraNav;
+    color: black;
+    text-align: end;
+}
+footer {
+    grid-area: footer;
+
+}
+main {
+    grid-area: main;
+}
+.barraNav {
+    display: flex;
+    flex-direction: row;
+}
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+.imgChica {
+    width: 400px;
+    height: auto;
 }
