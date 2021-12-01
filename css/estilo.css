@@ -166,8 +166,4 @@ main {
 
 
 
-/*ANIMACIONES*/ 
-.gira:hover {
-    transform: translateY(-100px);
-}
 
