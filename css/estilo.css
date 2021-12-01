@@ -152,3 +152,15 @@ main {
     width: 400px;
     height: auto;
 }
+
+
+/*MENU*/
+/*Grid*/
+.gridMenu {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+.borderWhite {
+    border: 1px solid white;
+}
