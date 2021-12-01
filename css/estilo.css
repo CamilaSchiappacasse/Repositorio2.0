@@ -46,12 +46,11 @@ body {
 
 .titulo {
     font-size: 40px;
-    color: #e10e81;
-
+    color: white;
 }
 .encabezados {
     font-size: 30px;
-    color: #e10e81;
+    color: white;
 }
 
 /*.logos {
@@ -71,7 +70,7 @@ body {
     justify-content: center;
 }
 .subtitulo {
-    color: #e10e81;
+    color: white;
     font-size: 25px;
 
 }
@@ -164,3 +163,11 @@ main {
 .borderWhite {
     border: 1px solid white;
 }
+
+
+
+/*ANIMACIONES*/ 
+.gira:hover {
+    transform: translateY(-100px);
+}
+
